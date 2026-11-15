@@ -33,7 +33,7 @@ metadata:
 
 默认从微排版官方 AI 素材库按 **一个 tag** 取完全部已发布图，再分到槽位。用户给出图片，或点名某个生图技能时，才离开素材库。未点名时不查找、不调用任何生图技能。
 
-转换器在服务端（`buildVectorFromSvg`）。技能只写 HTML。
+转换器在服务端。技能只写 HTML。
 
 辅助画布是点缀。图文 SVG 是章节配图，一篇最多 7 块，可以每节都上。轮播、横向滑动、点击切换、点击弹窗和点击动画组不限块数；没有合适的节拍就不用。不要为了用 SVG 或交互而用。
 
@@ -167,7 +167,6 @@ python3 "$SKILL_DIR/scripts/publish.py" \
 - **404（修改）**：workId 错、非所有者、或已发布。
 - **400**：对照 dialect：根 section、richText 非空、slideshow 张数与 height、clickSwitch 两层 svg、clickPopup 必须是 svg 且含组+底图、横向滑动的宽画布必须是横向 scroller 的唯一子节点且 `data-max-width="none"`、宽画布宽度 > 390 且 ≤ 1560、画布标签只在 svg 内、`<image>` 成对闭合、animationGroup 不能当 section 子节点、512KB / 300 元素。
 - 素材接口失败时停止取图，不猜 key，不改拉全库。
-- 已有画布运行时 SVG/HTML 要入库，用 **weipaiban-canvas-import**，不要在本技能里手改坐标。
 
 ## 参考资料
 
