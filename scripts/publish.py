@@ -4,13 +4,12 @@
 创建：POST {WEIPAIBAN_API_BASE}/api/v1/vectors/svg
 修改：PUT  {WEIPAIBAN_API_BASE}/api/v1/vectors/{id}/svg（--work-id）
 
-服务端 buildVectorFromSvg 解析后写入作品。不是管理员样式上架。
+服务端解析后写入作品。不是管理员样式上架。
 成功时同时返回编辑链接 `url` 与临时预览链接 `preview`（/links/{previewId}，约 6 小时）。
 
 鉴权：Authorization: Bearer <sk-...>，token 取自 WEIPAIBAN_API_KEY。
 key 对应用户须为订阅用户或 developer，不要求 admin。
-API 源站经 api_base.validate_api_base 限制为 https://weipaiban.cn（含子域）
-或本机 localhost / 127.0.0.1 / ::1。不跳过证书校验。
+API 源站经 api_base.validate_api_base 限制为 https://weipaiban.cn（含子域）。不跳过证书校验。
 
 用法：
 
