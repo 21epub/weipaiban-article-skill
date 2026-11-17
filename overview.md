@@ -21,3 +21,5 @@
 整篇视差、滑动上色、计分答题或二选一，用微排版的 SVG 互动技能。
 
 开始前请先在 https://weipaiban.cn/settings/api-keys 创建密钥，并设置为环境变量 WEIPAIBAN_API_KEY。源码：https://github.com/21epub/weipaiban-article-skill
+
+基于甲木 × 摸鱼小李的 [gzh-design-skill](https://github.com/isjiamu/gzh-design-skill) 改编。

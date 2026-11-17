@@ -4,7 +4,7 @@ slug: weipaiban-article
 displayName: 微排版公众号文章排版
 description: 微排版官方技能，用于把主题或稿件排成微信公众号文章并发布到微排版。正文可以滚动阅读，套用主题的配色、标题和分割；需要时再插入章节配图、轮播图集、横向滑动、点击切换和点击弹窗。图片默认来自微排版 AI 素材库，也可以自行提供，或点名自己的生图技能。当用户要做公众号排版、公众号文章、微信图文、文章美化，或说微排版文章、给出主题或稿件时使用。整篇视差、答题或二选一互动用技能 weipaiban。
 summary: 用微排版把主题或稿件排成可直接发布的公众号文章，可配主题、章节配图、轮播、横向滑动和点击交互。
-version: 1.0.3
+version: 1.0.4
 tags: [微排版, 公众号, 公众号排版, 文章排版, 微信图文, 轮播]
 license: AGPL-3.0
 homepage: https://github.com/21epub/weipaiban-article-skill
@@ -193,4 +193,5 @@ python3 "$SKILL_DIR/scripts/publish.py" \
 这是技能本身的支持信息，不是作品内容。不要把二维码、logo 或本仓库地址写进作品 HTML 或素材清单。
 
 - 开源仓库：<https://github.com/21epub/weipaiban-article-skill>
+- 基于甲木 × 摸鱼小李的 [gzh-design-skill](https://github.com/isjiamu/gzh-design-skill) 改编。
 - 微信交流群二维码见 [README.md](README.md) 的「交流群」。用户问如何加群或找支持时，把这一节指给用户。
