@@ -20,14 +20,14 @@
 
 源码仓库：[https://github.com/21epub/weipaiban-article-skill](https://github.com/21epub/weipaiban-article-skill)
 
-本仓库在 [21epub/gzh-design-skill](https://github.com/21epub/gzh-design-skill) 的基础上修改。后续主题与排版约定以这个仓库为准。它是 [gzh-design-skill](https://github.com/isjiamu/gzh-design-skill) 的 fork，许可证同为 [GNU AGPL-3.0](LICENSE)，原作版权声明仍然有效。
+本仓库在 [21epub/gzh-design-skill](https://github.com/21epub/gzh-design-skill) 的基础上修改。后续主题与排版约定以这个仓库为准。它是 [gzh-design-skill](https://github.com/isjiamu/gzh-design-skill) 的 fork，许可证同为 [GNU AGPL-3.0](LICENSE.txt)，原作版权声明仍然有效。
 
 - 原作版权：Copyright (C) 2026 甲木 (Jiamu) × 摸鱼小李 (Moyu Xiaoli)
 - 21epub 著作权：Copyright (C) 2026 21epub
 - 修改部分：2026 年基于 21epub/gzh-design-skill，将公众号主题与排版约定改编为微排版流式文章技能
 - 自有内容：对接微排版的技能本身（流式文章结构、微排版方言与组件、发布与素材脚本，以及未取自 gzh-design-skill 的主题与文档）著作权归 21epub
 
-本仓库作为整体以 GNU AGPL-3.0 许可。21epub 对自有内容的著作权不把这些内容改成另一套许可证。完整声明见 [LICENSE](LICENSE)。
+本仓库作为整体以 GNU AGPL-3.0 许可。21epub 对自有内容的著作权不把这些内容改成另一套许可证。完整声明见 [LICENSE.txt](LICENSE.txt)。
 
 ## 交流群
 

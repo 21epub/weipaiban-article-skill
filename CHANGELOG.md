@@ -2,6 +2,17 @@
 
 本项目遵循 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/) 规范，版本号遵循 [语义化版本](https://semver.org/lang/zh-CN/)。
 
+## [1.0.4] - 2026-11-17
+
+随包附上完整许可证，详情页补改编说明。流程与 1.0.3 相同。
+
+### 变更
+
+- 许可证文件改为 `LICENSE.txt`，仓库与 SkillHub 安装包共用这一份全文
+- `README.md` 的许可证链接改为 `LICENSE.txt`
+- `overview.md` 与 `SKILL.md` 写明基于甲木 × 摸鱼小李的 gzh-design-skill 改编，并附原仓库链接
+- 版本号改为 `1.0.4`
+
 ## [1.0.3] - 2026-11-15
 
 更换 SkillHub 技能图标。流程与 1.0.2 相同。
