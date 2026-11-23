@@ -9,22 +9,7 @@ tags: [微排版, 公众号, 公众号排版, 文章排版, 微信图文, 轮播
 license: AGPL-3.0
 homepage: https://github.com/21epub/weipaiban-article-skill
 metadata:
-  openclaw:
-    emoji: '📰'
-    requires:
-      bins:
-        - python3
-      env:
-        - WEIPAIBAN_API_KEY
-    primaryEnv: WEIPAIBAN_API_KEY
-    optionalEnv:
-      - WEIPAIBAN_API_BASE
-    optionalBinaries:
-      - rembg
-    externalServices:
-      - weipaiban.cn
-    writes:
-      - /tmp/weipaiban-article-*/
+  openclaw: '{"emoji":"📰","primaryEnv":"WEIPAIBAN_API_KEY","requiresBins":"python3","requiresEnv":"WEIPAIBAN_API_KEY","optionalEnv":"WEIPAIBAN_API_BASE","optionalBinaries":"rembg","externalServices":"weipaiban.cn","writes":"/tmp/weipaiban-article-*"}'
 ---
 
 # 微排版公众号文章排版
