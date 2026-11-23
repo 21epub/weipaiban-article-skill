@@ -26,10 +26,11 @@
 | `newsprint` | 复古报刊 | `#2A2622` | `#9C3B32` | 章节流、对照流 | 时评、本地新闻、事件复盘、剪报 |
 | `storybook` | 手绘绘本 | `#73343E` | `#8A632C` | 叙事流、卡片流 | 亲子、绘本、童话、社区故事 |
 | `campus-board` | 青春校园 | `#1E5C56` | `#D4B15A` | 卡片流、章节流 | 校园活动、社团、升学、学生成长 |
+| `red-marker` | 红标简编 | `#E1251B` | `#D85A30` | 章节流、叙事流 | 案例拆解、营销复盘、功能说明、操作教程、获客长文 |
 
 选择：用户指定 > `--recommend` 打分（类目 / 关键词 / 语法 / 避开项 / 最近用过）> 用户确认或「用推荐」。
 
-同类目分界：器物国风 → `neo-chinese`；散文禅意 → `zen-whitespace`；商务科技 → `graphite-minimal`；产品轻卡 → `glassmorphism`；AI/电竞 → `cyber-dark`；杂志长文 → `editorial-serif`；内刊温度 → `olive-journal`；手感游记 → `collage-journal`；硬切割年报 → `swiss-minimal`；像素界面 → `pixel-live`；水色随笔 → `wash-blue`；染织工艺 → `indigo-stitch`；报纸栏线 → `newsprint`；亲子绘本 → `storybook`；校园活页 → `campus-board`。
+同类目分界：器物国风 → `neo-chinese`；散文禅意 → `zen-whitespace`；商务科技 → `graphite-minimal`；产品轻卡 → `glassmorphism`；AI/电竞 → `cyber-dark`；杂志长文 → `editorial-serif`；内刊温度 → `olive-journal`；手感游记 → `collage-journal`；硬切割年报 → `swiss-minimal`；像素界面 → `pixel-live`；水色随笔 → `wash-blue`；染织工艺 → `indigo-stitch`；报纸栏线 → `newsprint`；亲子绘本 → `storybook`；校园活页 → `campus-board`；零装饰拆解长文 → `red-marker`。
 
 ## 风格族谱
 
@@ -54,5 +55,6 @@
 ├── 靛蓝布标      → 布面明线 / 虚线针脚
 ├── 复古报刊      → 双线栏 / 版首印泥日期
 ├── 手绘绘本      → 挂旗短条 / 绘本暖纸
-└── 青春校园      → 活页虚线 / 黑板青编号
+├── 青春校园      → 活页虚线 / 黑板青编号
+└── 红标简编      → 正红编号 / 留白分层
 ```
